@@ -28,7 +28,7 @@ name: 'Peter',
 age: 65,
 state: 'KY'
 }
-console.log(peter)
+return peter
     }
 buildPeter()
 
@@ -38,8 +38,14 @@ buildPeter()
     // 🧠 Example of usage:
     // buildUser("John", "Smith", 30) // should return { firstName: "John", lastName: "Smith", age: 30 }
     function buildUser(firstName, lastName, age) {
-
+let user = {
+firstName: 'Kat',
+lastName: 'Wright',
+age: 29,
+}
+return user
     }
+buildUser()
 
     // 👉 CHALLENGE 3
     // 🧠 The function deletePrice takes an object as its argument and deletes its "price" property if it exists.
